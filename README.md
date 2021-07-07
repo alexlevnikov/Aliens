@@ -26,3 +26,9 @@ I have chosen this approach, as it is native, stable, and easy to use. But If SF
 1. Swizzle SFSafariViewController webpage rendering
 2. Wrap SFSafariViewController in another UIViewController and control edit its frame during the presentation
 3. Overlay custom views on top SFSafariViewController
+
+## Ideas to improve
+
+1. Find the most stable way to replace SFSafariViewController native navigation with a custom one to improve UI/UX that would fit News App better
+2. Improve news fetching logic
+3. Add UITests
