@@ -20,7 +20,7 @@ struct NewsPreview: View{
     
     var body: some View {
         NavigationLink(
-            destination: WebView(webViewModel: webViewModel),
+            destination: ReaderView(),
             label: {
                 HStack {
                     ZStack {

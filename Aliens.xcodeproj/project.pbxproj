@@ -14,6 +14,28 @@
 		9460E6212695F3A1007B92F5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E61C2695F3A1007B92F5 /* ImageCache.swift */; };
 		9460E6272696106A007B92F5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6262696106A007B92F5 /* WebView.swift */; };
 		9460E6292696110A007B92F5 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6282696110A007B92F5 /* WebViewModel.swift */; };
+		9460E6A626963709007B92F5 /* NavBarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E68F26963709007B92F5 /* NavBarTitleView.swift */; };
+		9460E6A726963709007B92F5 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69126963709007B92F5 /* Lato-Bold.ttf */; };
+		9460E6A826963709007B92F5 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69226963709007B92F5 /* Lato-Black.ttf */; };
+		9460E6A926963709007B92F5 /* style-dark.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69326963709007B92F5 /* style-dark.css */; };
+		9460E6AA26963709007B92F5 /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69426963709007B92F5 /* Lora-Bold.ttf */; };
+		9460E6AB2696370A007B92F5 /* style-light.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69526963709007B92F5 /* style-light.css */; };
+		9460E6AC2696370A007B92F5 /* style-md.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69626963709007B92F5 /* style-md.css */; };
+		9460E6AD2696370A007B92F5 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69726963709007B92F5 /* Lato-Regular.ttf */; };
+		9460E6AE2696370A007B92F5 /* style-lg.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69826963709007B92F5 /* style-lg.css */; };
+		9460E6AF2696370A007B92F5 /* readerTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69926963709007B92F5 /* readerTemplate.html */; };
+		9460E6B02696370A007B92F5 /* style-sans.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69A26963709007B92F5 /* style-sans.css */; };
+		9460E6B12696370A007B92F5 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69B26963709007B92F5 /* Lora-Regular.ttf */; };
+		9460E6B22696370A007B92F5 /* style-sm.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69C26963709007B92F5 /* style-sm.css */; };
+		9460E6B32696370A007B92F5 /* style-serif.css in Resources */ = {isa = PBXBuildFile; fileRef = 9460E69D26963709007B92F5 /* style-serif.css */; };
+		9460E6B42696370A007B92F5 /* ArticleReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E69E26963709007B92F5 /* ArticleReaderController.swift */; };
+		9460E6B52696370A007B92F5 /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E69F26963709007B92F5 /* ReaderViewController.swift */; };
+		9460E6B62696370A007B92F5 /* SwiftyMercuryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6A026963709007B92F5 /* SwiftyMercuryApi.swift */; };
+		9460E6B72696370A007B92F5 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6A126963709007B92F5 /* ReaderView.swift */; };
+		9460E6B82696370A007B92F5 /* ReaderToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6A226963709007B92F5 /* ReaderToolBar.swift */; };
+		9460E6B92696370A007B92F5 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9460E6A326963709007B92F5 /* keys.plist */; };
+		9460E6BA2696370A007B92F5 /* ReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6A426963709007B92F5 /* ReaderWebView.swift */; };
+		9460E6BB2696370A007B92F5 /* ScrollableNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460E6A526963709007B92F5 /* ScrollableNavBarViewController.swift */; };
 		94A0A0292695DACA0026372F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0A0282695DACA0026372F /* AppDelegate.swift */; };
 		94A0A02B2695DACA0026372F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0A02A2695DACA0026372F /* SceneDelegate.swift */; };
 		94A0A02F2695DACD0026372F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A0A02E2695DACD0026372F /* Assets.xcassets */; };
@@ -33,6 +55,28 @@
 		9460E6262696106A007B92F5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9460E6282696110A007B92F5 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 		9460E63F26961AA6007B92F5 /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		9460E68F26963709007B92F5 /* NavBarTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarTitleView.swift; sourceTree = "<group>"; };
+		9460E69126963709007B92F5 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9460E69226963709007B92F5 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		9460E69326963709007B92F5 /* style-dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-dark.css"; sourceTree = "<group>"; };
+		9460E69426963709007B92F5 /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
+		9460E69526963709007B92F5 /* style-light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-light.css"; sourceTree = "<group>"; };
+		9460E69626963709007B92F5 /* style-md.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-md.css"; sourceTree = "<group>"; };
+		9460E69726963709007B92F5 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		9460E69826963709007B92F5 /* style-lg.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-lg.css"; sourceTree = "<group>"; };
+		9460E69926963709007B92F5 /* readerTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = readerTemplate.html; sourceTree = "<group>"; };
+		9460E69A26963709007B92F5 /* style-sans.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-sans.css"; sourceTree = "<group>"; };
+		9460E69B26963709007B92F5 /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
+		9460E69C26963709007B92F5 /* style-sm.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-sm.css"; sourceTree = "<group>"; };
+		9460E69D26963709007B92F5 /* style-serif.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-serif.css"; sourceTree = "<group>"; };
+		9460E69E26963709007B92F5 /* ArticleReaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleReaderController.swift; sourceTree = "<group>"; };
+		9460E69F26963709007B92F5 /* ReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
+		9460E6A026963709007B92F5 /* SwiftyMercuryApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyMercuryApi.swift; sourceTree = "<group>"; };
+		9460E6A126963709007B92F5 /* ReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		9460E6A226963709007B92F5 /* ReaderToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderToolBar.swift; sourceTree = "<group>"; };
+		9460E6A326963709007B92F5 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		9460E6A426963709007B92F5 /* ReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderWebView.swift; sourceTree = "<group>"; };
+		9460E6A526963709007B92F5 /* ScrollableNavBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableNavBarViewController.swift; sourceTree = "<group>"; };
 		94A0A0252695DACA0026372F /* Aliens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aliens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A0A0282695DACA0026372F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A0A02A2695DACA0026372F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +121,43 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		9460E68E26963709007B92F5 /* ReaderView */ = {
+			isa = PBXGroup;
+			children = (
+				9460E68F26963709007B92F5 /* NavBarTitleView.swift */,
+				9460E69026963709007B92F5 /* HTMLReader */,
+				9460E69E26963709007B92F5 /* ArticleReaderController.swift */,
+				9460E69F26963709007B92F5 /* ReaderViewController.swift */,
+				9460E6A026963709007B92F5 /* SwiftyMercuryApi.swift */,
+				9460E6A126963709007B92F5 /* ReaderView.swift */,
+				9460E6A226963709007B92F5 /* ReaderToolBar.swift */,
+				9460E6A326963709007B92F5 /* keys.plist */,
+				9460E6A426963709007B92F5 /* ReaderWebView.swift */,
+				9460E6A526963709007B92F5 /* ScrollableNavBarViewController.swift */,
+			);
+			path = ReaderView;
+			sourceTree = "<group>";
+		};
+		9460E69026963709007B92F5 /* HTMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				9460E69126963709007B92F5 /* Lato-Bold.ttf */,
+				9460E69226963709007B92F5 /* Lato-Black.ttf */,
+				9460E69326963709007B92F5 /* style-dark.css */,
+				9460E69426963709007B92F5 /* Lora-Bold.ttf */,
+				9460E69526963709007B92F5 /* style-light.css */,
+				9460E69626963709007B92F5 /* style-md.css */,
+				9460E69726963709007B92F5 /* Lato-Regular.ttf */,
+				9460E69826963709007B92F5 /* style-lg.css */,
+				9460E69926963709007B92F5 /* readerTemplate.html */,
+				9460E69A26963709007B92F5 /* style-sans.css */,
+				9460E69B26963709007B92F5 /* Lora-Regular.ttf */,
+				9460E69C26963709007B92F5 /* style-sm.css */,
+				9460E69D26963709007B92F5 /* style-serif.css */,
+			);
+			path = HTMLReader;
+			sourceTree = "<group>";
+		};
 		94A0A01C2695DACA0026372F = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +177,7 @@
 		94A0A0272695DACA0026372F /* Aliens */ = {
 			isa = PBXGroup;
 			children = (
+				9460E68E26963709007B92F5 /* ReaderView */,
 				9460E6172695F395007B92F5 /* AsyncImage */,
 				94A0A0422695DC6A0026372F /* NewsSource */,
 				9460E6222695FC93007B92F5 /* UI */,
@@ -198,8 +280,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A0A0352695DACD0026372F /* LaunchScreen.storyboard in Resources */,
+				9460E6AF2696370A007B92F5 /* readerTemplate.html in Resources */,
+				9460E6AA26963709007B92F5 /* Lora-Bold.ttf in Resources */,
+				9460E6B12696370A007B92F5 /* Lora-Regular.ttf in Resources */,
+				9460E6AE2696370A007B92F5 /* style-lg.css in Resources */,
 				94A0A0322695DACD0026372F /* Preview Assets.xcassets in Resources */,
+				9460E6B02696370A007B92F5 /* style-sans.css in Resources */,
 				94A0A02F2695DACD0026372F /* Assets.xcassets in Resources */,
+				9460E6AB2696370A007B92F5 /* style-light.css in Resources */,
+				9460E6B92696370A007B92F5 /* keys.plist in Resources */,
+				9460E6A826963709007B92F5 /* Lato-Black.ttf in Resources */,
+				9460E6B22696370A007B92F5 /* style-sm.css in Resources */,
+				9460E6A726963709007B92F5 /* Lato-Bold.ttf in Resources */,
+				9460E6AD2696370A007B92F5 /* Lato-Regular.ttf in Resources */,
+				9460E6B32696370A007B92F5 /* style-serif.css in Resources */,
+				9460E6AC2696370A007B92F5 /* style-md.css in Resources */,
+				9460E6A926963709007B92F5 /* style-dark.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,16 +307,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A0A0292695DACA0026372F /* AppDelegate.swift in Sources */,
+				9460E6B42696370A007B92F5 /* ArticleReaderController.swift in Sources */,
+				9460E6B72696370A007B92F5 /* ReaderView.swift in Sources */,
 				9460E61E2695F3A1007B92F5 /* AsyncImage.swift in Sources */,
 				94A0A03D2695DB730026372F /* NewsListView.swift in Sources */,
 				94A0A02B2695DACA0026372F /* SceneDelegate.swift in Sources */,
+				9460E6B52696370A007B92F5 /* ReaderViewController.swift in Sources */,
+				9460E6BB2696370A007B92F5 /* ScrollableNavBarViewController.swift in Sources */,
 				94A0A0412695DB950026372F /* News.swift in Sources */,
+				9460E6A626963709007B92F5 /* NavBarTitleView.swift in Sources */,
+				9460E6B62696370A007B92F5 /* SwiftyMercuryApi.swift in Sources */,
 				9460E6202695F3A1007B92F5 /* ImageLoader.swift in Sources */,
+				9460E6BA2696370A007B92F5 /* ReaderWebView.swift in Sources */,
 				9460E6212695F3A1007B92F5 /* ImageCache.swift in Sources */,
 				9460E6292696110A007B92F5 /* WebViewModel.swift in Sources */,
 				9460E61D2695F3A1007B92F5 /* EnvironmentValues+ImageCache.swift in Sources */,
 				9460E6122695F18C007B92F5 /* NewsPreview.swift in Sources */,
 				94A0A0442695DC780026372F /* NewsListViewModel.swift in Sources */,
+				9460E6B82696370A007B92F5 /* ReaderToolBar.swift in Sources */,
 				9460E6272696106A007B92F5 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
