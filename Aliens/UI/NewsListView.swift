@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct NewsListView: View {
-    
-    var news: [News] = NewsSource.news
+    var news: [News] = []
     
     var body: some View {
         NavigationView {
@@ -17,7 +16,6 @@ struct NewsListView: View {
                 NewsPreview(with: newsItem)
             }.navigationBarTitle(Text("News"))
         }
-       
     }
 }
 

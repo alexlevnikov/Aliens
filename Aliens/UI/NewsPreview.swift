@@ -7,49 +7,40 @@
 
 import Foundation
 import SwiftUI
-import BetterSafariView
 
 struct NewsPreview: View{
     var news:News
-    @ObservedObject var webViewModel:WebViewModel = WebViewModel()
+    @State var isSelected = false
     
     init(with news: News) {
         self.news = news
-        webViewModel.url = news.url
     }
     
     var body: some View {
-        NavigationLink(
-            destination: ReaderView(),
-            label: {
-                HStack {
-                    ZStack {
-                        Color.red.ignoresSafeArea()
-                        AsyncImage(
-                            url: news.imageURL,
-                            placeholder: { ProgressView().progressViewStyle(CircularProgressViewStyle()) },
-                            image: {
-                                Image(uiImage: $0).resizable()
-                            }
-                        )
-                    }.cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .padding(.all, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                    Text(self.news.title)
-                        .font(.body)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color.gray)
-                        .multilineTextAlignment(.leading)
-                        .padding(.all, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        HStack {
+            AsyncImage(
+                url: news.imageURL,
+                placeholder: { ProgressView().progressViewStyle(CircularProgressViewStyle()) },
+                image: {
+                    Image(uiImage: $0).resizable()
                 }
-            }
-        )
-    }
-}
-
-struct NewsListPreview_Previews: PreviewProvider {
-    static var previews: some View {
-        NewsPreview(with: NewsSource.news.first!).frame(width: .infinity, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            )
+            .cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
+            .frame(width: 80, height: 60, alignment: .center)
+            .aspectRatio(contentMode: .fill)
+            Text(self.news.title)
+                .font(.body)
+                .fontWeight(.semibold)
+                .foregroundColor(Color.gray)
+                .multilineTextAlignment(.leading)
+                .padding(.leading, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        }
+        .padding(.all, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        .fullScreenCover(isPresented: $isSelected, content: {
+            SafariView(url:self.news.url)
+        })
+        .onTapGesture {
+            isSelected = true
+        }
     }
 }

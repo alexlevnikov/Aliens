@@ -19,6 +19,12 @@ struct News: Identifiable {
         case imageURL
     }
     
+    init(title: String, urlPath: String, imagePath: String) {
+        self.title = title
+        url = URL(string: urlPath)!
+        imageURL = URL(string: imagePath)!
+    }
+    
     init?(with json: [String : Any]) {
         guard let title = json[Keys.title.rawValue] as? String,
               let urlPath = json[Keys.url.rawValue] as? String,
@@ -33,9 +39,5 @@ struct News: Identifiable {
         self.imageURL = imageURL
     }
     
-    init(title: String, urlPath: String, imagePath: String) {
-        self.title = title
-        url = URL(string: urlPath)!
-        imageURL = URL(string: imagePath)!
-    }
+    
 }
